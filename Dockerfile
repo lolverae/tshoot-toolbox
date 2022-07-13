@@ -6,5 +6,5 @@ RUN apt update && apt upgrade -y
 RUN apt install curl iputils-ping telnet grep \
                 arp-scan tcpdump traceroute dnsutils \
                 net-tools netcat -y 
-CMD ["ping", "localhost"]
+CMD ["wait", "infinity"]
 
